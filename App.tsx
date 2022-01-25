@@ -8,7 +8,7 @@ const [focusSubject, setFocusSubject ] = useState(false)
   return (
     <View style={styles.container}>
       
-      <Text> {focusSubject ? (<Text> is this True </Text>) : (  <Focus /> )}</Text>
+       <Focus /> 
     </View>
   );
 }
@@ -16,8 +16,9 @@ const [focusSubject, setFocusSubject ] = useState(false)
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#262246',
     alignItems: 'center',
     justifyContent: 'center',
+
   },
 });
